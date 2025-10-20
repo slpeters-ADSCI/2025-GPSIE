@@ -71,42 +71,42 @@
 <script>
 /* ---------- Attendee data (parsed from roster) ---------- */
 const attendees = [
-  {table: "B4", institution: "Adler University — Graduate Admissions", programs: ["Counseling/Child Development","Graduate Certificates","MA Military Psychology","PsyD","PhD Industrial/Organizational"]},
-  {table: "G3", institution: "Aurora University — Graduate Programs", programs: ["Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Nursing","Public Policy","Social Work"]},
-  {table: "C4", institution: "Bradley University — Graduate Admissions", programs: ["Business","Computer Science/Data","Counseling/Child Development","Data Science","Engineering","Game Design","Nonprofit Management","Nursing","Nutrition & Dietetics","Physical Therapy","Science","Sports Communication"]},
-  {table: "D2", institution: "Butler University — Graduate & Online Programs", programs: ["Business","Counseling/Child Development","Fine Arts","Medical School/Health Professions"]},
-  {table: "B2", institution: "Dominican University — School of Information Studies", programs: ["Library Science/Information Studies"]},
-  {table: "F4", institution: "Elmhurst University — School of Graduate Studies", programs: ["Business","Computer Science/Data","Education","Industrial/Organizational Psychology","Nursing","Occupational Therapy","Speech Language Pathology"]},
-  {table: "D1", institution: "Governors State University — College of Health & Human Services", programs: ["Nursing","Occupational Therapy","Physical Therapy","Public Health","Social Work","Speech Language Pathology"]},
-  {table: "G4", institution: "Illinois State University — Graduate School", programs: ["Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Fine Arts","Library Science","Nursing","Psychology/PsyD","Public Health","Science","Social Work","Speech Language Pathology"]},
-  {table: "C5", institution: "Illinois Tech — Graduate Admissions", programs: ["Business","Computer Science/Data","Counseling/Child Development","Engineering","Law","Psychology/PsyD","Public Policy","Science"]},
-  {table: "D5", institution: "Loyola University Chicago — Graduate & Professional Admissions", programs: ["Business","Computer Science/Data","Counseling/Child Development","Education","Law","Library Science","Nursing","Public Health","Public Policy","Science","Social Work","Theology"]},
-  {table: "D4", institution: "Marquette University — Graduate School", programs: ["Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Engineering","English","History","Science","Theology"]},
-  {table: "B5", institution: "Marquette University — Law School", programs: ["Law"]},
-  {table: "C2", institution: "Millikin University — Tabor School of Business / Professional Studies", programs: ["Athletic Training","Business","Nursing"]},
-  {table: "C1", institution: "North Central College — School of Graduate & Professional Studies", programs: ["Athletic Training","Business","Medical School/Health","Nursing","Occupational Therapy","Physical Therapy"]},
-  {table: "B1-PA", institution: "Northern Illinois University — Dept. of Public Administration", programs: ["Public Administration"]},
-  {table: "F3", institution: "Olivet Nazarene University — Graduate & Continuing Studies", programs: ["Business","Education","Nursing","Sport Management"]},
-  {table: "H5", institution: "Quincy University — Graduate Studies Program", programs: ["Business","Counseling/Child Development","Education","Occupational Therapy","Physical Therapy"]},
-  {table: "G2", institution: "Roosevelt University — College of Science, Health & Pharmacy", programs: ["Business","Computer Science/Data","Counseling/Child Development","Education","Fine Arts","Nursing","Occupational Therapy","Physical Therapy","Psychology/PsyD","Science"]},
-  {table: "F1", institution: "Rosalind Franklin University of Medicine & Science", programs: ["Medical School/Health","Nursing","Physical Therapy","Psychology/PsyD","Science"]},
-  {table: "E5", institution: "Saint Louis University — Graduate Admission Office", programs: ["Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Engineering","Fine Arts","Law","Library Science","Medical School/Health","Nursing","Occupational Therapy","Physical Therapy","Psychology/PsyD","Public Health","Public Policy","Science","Social Work","Speech Language Pathology","Theology"]},
-  {table: "G5", institution: "Southern Illinois University Carbondale — Graduate School", programs: ["Business","Computer Science/Data","Education","Engineering","Fine Arts","Occupational Therapy","Public Health","Public Policy","Social Work"]},
-  {table: "F5", institution: "Southern Illinois University Edwardsville — Graduate & International Admissions", programs: ["Athletic Training","Business","Computer Science/Data","Education","Engineering","Fine Arts","Nursing","Psychology/PsyD","Public Health","Public Policy","Science","Social Work","Speech Language Pathology"]},
-  {table: "A1", institution: "Southern Illinois University School of Medicine", programs: ["Science"]},
-  {table: "H4", institution: "Truman State University — Graduate Admissions", programs: ["Applied Behavior Analysis","Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Fine Arts","Psychology/PsyD","Public Policy","Speech Language Pathology"]},
-  {table: "E3", institution: "University of Illinois Chicago — Retzky College of Pharmacy", programs: ["Pharmacy"]},
-  {table: "A3", institution: "University of Chicago — Crown Family School of Social Work, Policy, and Practice", programs: ["Social Work"]},
-  {table: "D3", institution: "University of Illinois Springfield — Graduate Admission", programs: ["Counseling/Child Development","Education","Public Health","Public Policy"]},
-  {table: "E1", institution: "University of Illinois Springfield — Master of Athletic Training Program", programs: ["Athletic Training"]},
-  {table: "C3", institution: "University of Illinois Springfield — Office of Admission", programs: ["Business","Communication","Computer Science/Data","Environmental Science","History"]},
-  {table: "A4", institution: "University of Illinois Urbana-Champaign — Gies College of Business", programs: ["Business","Business Analytics","Technology Management"]},
-  {table: "E2", institution: "University of Illinois Urbana-Champaign — College of Applied Health Sciences", programs: ["Public Health","Health Administration"]},
-  {table: "E4", institution: "University of Illinois Urbana-Champaign — Health Technology", programs: ["Health Technology"]},
-  {table: "F2", institution: "University of Indianapolis — College of Applied Health Sciences", programs: ["Athletic Training","Nursing","Occupational Therapy","Physical Therapy","Public Health"]},
-  {table: "H3", institution: "University of Wisconsin - Milwaukee — Graduate School", programs: ["Architecture & Urban Planning","Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Engineering","Fine Arts","Library Science","Nursing","Occupational Therapy","Physical Therapy","Psychology/PsyD","Public Health","Public Policy","Science","Social Work","Speech Language Pathology"]},
-  {table: "B3", institution: "Valparaiso University — Graduate Admission", programs: ["Business","Counseling/Child Development","Nursing","Occupational Therapy","Public Health","Social Work"]},
-  {table: "A2", institution: "Washington University in St. Louis — Brown School", programs: ["Public Policy","Social Work","Social Policy"]}
+  {table: "B4", institution: "Adler University — Graduate Admissions", url: "https://www.adler.edu/programs/", programs: ["Counseling/Child Development","Graduate Certificates","MA Military Psychology","PsyD","PhD Industrial/Organizational"]},
+  {table: "G3", institution: "Aurora University — Graduate Programs", url: "https://aurora.edu/academics/graduate/index.html", programs: ["Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Nursing","Public Policy","Social Work"]},
+  {table: "C4", institution: "Bradley University — Graduate Admissions", url: "https://www.bradley.edu/admissions/graduate/", programs: ["Business","Computer Science/Data","Counseling/Child Development","Data Science","Engineering","Game Design","Nonprofit Management","Nursing","Nutrition & Dietetics","Physical Therapy","Science","Sports Communication"]},
+  {table: "D2", institution: "Butler University — Graduate & Online Programs", url: "https://www.butler.edu/plus/", programs: ["Business","Counseling/Child Development","Fine Arts","Medical School/Health Professions"]},
+  {table: "B2", institution: "Dominican University — School of Information Studies", url: "https://www.dom.edu/academics/colleges-and-schools/cbist/school-information-studies", programs: ["Library Science/Information Studies"]},
+  {table: "F4", institution: "Elmhurst University — School of Graduate Studies", url: "https://www.elmhurst.edu/academics/graduate/", programs: ["Business","Computer Science/Data","Education","Industrial/Organizational Psychology","Nursing","Occupational Therapy","Speech Language Pathology"]},
+  {table: "D1", institution: "Governors State University — College of Health & Human Services", url: "https://www.govst.edu/chhs/", programs: ["Nursing","Occupational Therapy","Physical Therapy","Public Health","Social Work","Speech Language Pathology"]},
+  {table: "G4", institution: "Illinois State University — Graduate School", url: "https://illinoisstate.edu/academics/graduate/", programs: ["Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Fine Arts","Library Science","Nursing","Psychology/PsyD","Public Health","Science","Social Work","Speech Language Pathology"]},
+  {table: "C5", institution: "Illinois Tech — Graduate Admissions", url: "https://www.iit.edu/academics/graduate-programs", programs: ["Business","Computer Science/Data","Counseling/Child Development","Engineering","Law","Psychology/PsyD","Public Policy","Science"]},
+  {table: "D5", institution: "Loyola University Chicago — Graduate & Professional Admissions", url: "https://www.luc.edu/gradschool/academics/degreeprograms/", programs: ["Business","Computer Science/Data","Counseling/Child Development","Education","Law","Library Science","Nursing","Public Health","Public Policy","Science","Social Work","Theology"]},
+  {table: "D4", institution: "Marquette University — Graduate School", url: "https://www.marquette.edu/grad/programs.php", programs: ["Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Engineering","English","History","Science","Theology"]},
+  {table: "B5", institution: "Marquette University — Law School", url: "https://law.marquette.edu/programs-degrees", programs: ["Law"]},
+  {table: "C2", institution: "Millikin University — Tabor School of Business / Professional Studies", url: "https://millikin.edu/admission/admission-information/graduate-programs", programs: ["Athletic Training","Business","Nursing"]},
+  {table: "C1", institution: "North Central College — School of Graduate & Professional Studies", url: "https://www.northcentralcollege.edu/graduate-studies", programs: ["Athletic Training","Business","Medical School/Health","Nursing","Occupational Therapy","Physical Therapy"]},
+  {table: "B1-PA", institution: "Northern Illinois University — Dept. of Public Administration", url: "https://www.niu.edu/clas/public-administration/index.shtml", programs: ["Public Administration"]},
+  {table: "F3", institution: "Olivet Nazarene University — Graduate & Continuing Studies", url: "https://www.olivet.edu/academics/graduate-programs/", programs: ["Business","Education","Nursing","Sport Management"]},
+  {table: "H5", institution: "Quincy University — Graduate Studies Program", url: "https://www.quincy.edu/academics/graduate-programs/", programs: ["Business","Counseling/Child Development","Education","Occupational Therapy","Physical Therapy"]},
+  {table: "G2", institution: "Roosevelt University — College of Science, Health & Pharmacy", url: "https://www.roosevelt.edu/colleges/science-health-pharmacy", programs: ["Business","Computer Science/Data","Counseling/Child Development","Education","Fine Arts","Nursing","Occupational Therapy","Physical Therapy","Psychology/PsyD","Science"]},
+  {table: "F1", institution: "Rosalind Franklin University of Medicine & Science", url: "https://www.rosalindfranklin.edu/academics/programs-of-study/", programs: ["Medical School/Health","Nursing","Physical Therapy","Psychology/PsyD","Science"]},
+  {table: "E5", institution: "Saint Louis University — Graduate Admission Office", url: "https://www.slu.edu/science-and-engineering/academics/graduate-programs/index.php", programs: ["Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Engineering","Fine Arts","Law","Library Science","Medical School/Health","Nursing","Occupational Therapy","Physical Therapy","Psychology/PsyD","Public Health","Public Policy","Science","Social Work","Speech Language Pathology","Theology"]},
+  {table: "G5", institution: "Southern Illinois University Carbondale — Graduate School", url: "https://siu.edu/admissions/graduate/academics/", programs: ["Business","Computer Science/Data","Education","Engineering","Fine Arts","Occupational Therapy","Public Health","Public Policy","Social Work"]},
+  {table: "F5", institution: "Southern Illinois University Edwardsville — Graduate & International Admissions", url: "https://www.siue.edu/academics/graduate/degrees-and-programs/", programs: ["Athletic Training","Business","Computer Science/Data","Education","Engineering","Fine Arts","Nursing","Psychology/PsyD","Public Health","Public Policy","Science","Social Work","Speech Language Pathology"]},
+  {table: "A1", institution: "Southern Illinois University School of Medicine", url: "https://www.siumed.edu/degree-programs", programs: ["Science"]},
+  {table: "H4", institution: "Truman State University — Graduate Admissions", url: "https://www.truman.edu/majors-programs/graduate-studies/", programs: ["Applied Behavior Analysis","Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Fine Arts","Psychology/PsyD","Public Policy","Speech Language Pathology"]},
+  {table: "A3", institution: "University of Chicago — Crown Family School of Social Work, Policy, and Practice", url: "https://crownschool.uchicago.edu/academic-programs/masters-social-work", programs: ["Social Work"]},
+  {table: "E3", institution: "University of Illinois Chicago — Retzky College of Pharmacy", url: "https://pharmacy.uic.edu/programs/", programs: ["Pharmacy"]},
+  {table: "D3", institution: "University of Illinois Springfield — Graduate Admission", url: "https://www.uis.edu/graduate-education", programs: ["Counseling/Child Development","Education","Public Health","Public Policy"]},
+  {table: "E1", institution: "University of Illinois Springfield — Master of Athletic Training Program", url: "https://www.uis.edu/athletic-training/academic-programs/athletic-training-matr", programs: ["Athletic Training"]},
+  {table: "C3", institution: "University of Illinois Springfield — Office of Admission", url: "https://www.uis.edu/graduate-education", programs: ["Business","Communication","Computer Science/Data","Environmental Science","History"]},
+  {table: "A4", institution: "University of Illinois Urbana-Champaign — Gies College of Business", url: "https://giesbusiness.illinois.edu/", programs: ["Business","Business Analytics","Technology Management"]},
+  {table: "E2", institution: "University of Illinois Urbana-Champaign — College of Applied Health Sciences", url: "https://ahs.illinois.edu/academics/graduate-programs/", programs: ["Public Health","Health Administration"]},
+  {table: "E4", institution: "University of Illinois Urbana-Champaign — Health Technology", url: "https://healthtech.ahs.illinois.edu/ms-in-health-technology/", programs: ["Health Technology"]},
+  {table: "F2", institution: "University of Indianapolis — College of Applied Health Sciences", url: "https://uindy.edu/health-sciences/", programs: ["Athletic Training","Nursing","Occupational Therapy","Physical Therapy","Public Health"]},
+  {table: "H3", institution: "University of Wisconsin - Milwaukee — Graduate School", url: "https://catalog.uwm.edu/programs/", programs: ["Architecture & Urban Planning","Athletic Training","Business","Computer Science/Data","Counseling/Child Development","Education","Engineering","Fine Arts","Library Science","Nursing","Occupational Therapy","Physical Therapy","Psychology/PsyD","Public Health","Public Policy","Science","Social Work","Speech Language Pathology"]},
+  {table: "B3", institution: "Valparaiso University — Graduate Admission", url: "https://www.valpo.edu/academics/find-your-program/?degrees=Graduate&interests=&search=&department=&modality=", programs: ["Business","Counseling/Child Development","Nursing","Occupational Therapy","Public Health","Social Work"]},
+  {table: "A2", institution: "Washington University in St. Louis — Brown School", url: "https://brownschool.washu.edu/", programs: ["Public Policy","Social Work","Social Policy"]}
 ];
 
 /* ---------- Helpers & table lookup ---------- */
@@ -330,7 +330,20 @@ function renderAttendeeList(){
   filtered.forEach(a=>{
     const el = document.createElement('div');
     el.className = 'attendee';
-    el.innerHTML = `<div><div style="font-weight:600">${a.institution}</div><div class="small">Table: <span class="badge">${a.table}</span></div></div><div style="text-align:right"><div class="small">${(a.programs||[]).slice(0,2).join(", ")}${(a.programs||[]).length>2?"…":""}</div><div style="margin-top:6px"><button class="clear-btn show-btn" data-table="${normalizeTable(a.table)}">Show on map</button></div></div>`;
+    const nameHTML = a.url
+  ? `<a href="${a.url}" target="_blank" style="color:#1a73e8; text-decoration:none; font-weight:600;">${a.institution}</a>`
+  : `<div style="font-weight:600">${a.institution}</div>`;
+
+el.innerHTML = `
+  <div>
+    ${nameHTML}
+    <div class="small">Table: <span class="badge">${a.table}</span></div>
+  </div>
+  <div style="text-align:right">
+    <div class="small">${(a.programs||[]).slice(0,2).join(", ")}${(a.programs||[]).length>2?"…":""}</div>
+    <button class="clear-btn show-btn" data-table="${normalizeTable(a.table)}">Show on map</button>
+  </div>`;
+    <div class="small">Table: <span class="badge">${a.table}</span></div></div><div style="text-align:right"><div class="small">${(a.programs||[]).slice(0,2).join(", ")}${(a.programs||[]).length>2?"…":""}</div><div style="margin-top:6px"><button class="clear-btn show-btn" data-table="${normalizeTable(a.table)}">Show on map</button></div></div>`;
     attendeesContainer.appendChild(el);
     el.querySelector('.show-btn').addEventListener('click', ()=>{
       const cellCode = normalizeTable(a.table);
@@ -348,7 +361,17 @@ function renderAttendeeList(){
 
 function showDetailsFor(att) {
   detailCard.style.display = 'block';
-  detailCard.innerHTML = `<strong>${att.institution}</strong><div class="small">Table: <span class="badge">${att.table}</span></div><div style="margin-top:8px"><strong>Programs:</strong>${(att.programs||[]).map(p=>`<div>• ${p}</div>`).join('')}</div>`;
+  const nameHTML = att.url
+  ? `<a href="${att.url}" target="_blank" style="color:#1a73e8; text-decoration:none; font-weight:600;">${att.institution}</a>`
+  : `<strong>${att.institution}</strong>`;
+
+detailCard.innerHTML = `
+  ${nameHTML}
+  <div class="small">Table: <span class="badge">${att.table}</span></div>
+  <div style="margin-top:8px"><strong>Programs:</strong>
+    ${(att.programs||[]).map(p => `<div>• ${p}</div>`).join("")}
+  </div>`;
+  ${att.institution}</strong><div class="small">Table: <span class="badge">${att.table}</span></div><div style="margin-top:8px"><strong>Programs:</strong>${(att.programs||[]).map(p=>`<div>• ${p}</div>`).join('')}</div>`;
   const code = normalizeTable(att.table);
   const rect = svgOverlay.querySelector(`rect.hotspot[data-code="${code}"]`);
   if (rect) {
@@ -415,5 +438,6 @@ function positionHotspots(){ // same as built earlier; defined above but ensure 
 </script>
 </body>
 </html>
+
 
 
